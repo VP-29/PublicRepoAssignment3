@@ -1,7 +1,10 @@
+//Progrma developed by: Group 9
+//Vince Gabriel, Mingma Gelbu, Rogerio Brugnari e Evandro Maciel
+
 import AddMovie from "./components/AddMovie";
 import MovieList from "./components/MovieList";
-//import AddMovie from "./components/AddMovie";
 
+//get data from the API
 async function getData() {
   const API_URL = process.env.NEXT_PUBLIC_API_URL;
   const res = await fetch(`${API_URL}/api/movies`, {

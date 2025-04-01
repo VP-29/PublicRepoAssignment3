@@ -1,4 +1,5 @@
 // Url: http://localhost:3000/api/movies
+//HTTP Methods GET, DELETE, PATCH to retrieve, delete and edit a specific movie from the database
 import client from "../../../libs/prismadb.js";
 import { NextResponse } from "next/server";
 

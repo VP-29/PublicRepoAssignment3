@@ -1,3 +1,5 @@
+//components/MovieList.js
+//used to display the list of movies
 import Movie from "./Movie";
 
 const MovieList = ({ movies }) => {

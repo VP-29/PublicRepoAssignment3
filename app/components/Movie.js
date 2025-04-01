@@ -1,3 +1,6 @@
+//components\Movie.js
+//used to add, edit and delete movies
+//used to return movies to MovieList
 "use client";
 import { useRouter } from "next/navigation";
 import { useState } from "react";

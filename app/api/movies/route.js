@@ -1,3 +1,4 @@
+//HTTP Methods POST and GET to retrieve and add movies to the database
 import client from "../../libs/prismadb.js";
 import { NextResponse } from "next/server";
 
