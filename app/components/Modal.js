@@ -1,3 +1,5 @@
+//components/modal.js
+//used to display the modal for adding, or editing, movies.
 "use client";
 import React from "react";
 

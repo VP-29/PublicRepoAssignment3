@@ -1,3 +1,5 @@
+//components/AddMovie.js
+//used to add movies to the database using the API, method POST
 "use client";
 import { useState } from "react";
 import Modal from "./Modal";
